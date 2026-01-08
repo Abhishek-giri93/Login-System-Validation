@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Form</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+
+  <div class="page-wrapper">
+    <div class="container">
+
+      <div class="login-card">
+
+        <div class="login-header">
+          <h1>Login Form</h1>
+        </div>
+
+        <!-- Login body -->
+        <div class="login-body">
+          <form action="#" novalidate method="post">
+
+            <div class="form-group">
+              <label for="email">Enter email address</label>
+              <input type="email" id="email" name="email" placeholder="username@gmail.com">
+              <small class="error-text"></small>
+            </div>
+
+            <div class="form-group">
+              <label for="password">Enter password</label>
+              <input type="password" name="password" id="password" placeholder="Password">
+              <small class="error-text"></small>
+            </div>
+            
+            <div class="form-action">
+              <button type="submit">Submit</button>
+            </div>
+
+          </form>
+        </div>
+        
+        <div class="login-footer">
+          <p>or continue with </p>
+          <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook fa-xl icon"></i></a>
+          <a href="#"><i class="fab fa-instagram fa-xl icon"></i></a>
+          <a href="#"><i class="fab fa-twitter fa-xl icon"></i></a>
+          <a href="#"><i class="fab fa-linkedin fa-xl icon"></i></a>
+          </div>
+          <div class="signup">
+          <p>Don't have an account <a>sign up</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<script src="script.js"></script>
+</body>
+</html>
